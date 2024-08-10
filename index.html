@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jana Lasya Vani</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="slide">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="img1.jpg" alt="Jana Lasya Vani" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-8" id="about">
+                    A final-year student pursuing a Bachelor's degree in Information Tecgnology at SRKR Engineering college. 
+                        Throughout my academic journey, I've developed a strong foundation in programming languages such as Java, Python, and C++. <br> I've also had the opportunity to explore various domains like Data Structures and Database Systems.
+                        Outside of academics.  I enjoy reading books, cooking ,participating in events I'm also an active member of CSI,A student body from my college.
+                        <br>
+                        As I prepare to graduate, I'm eager to apply my skills and knowledge in a real-world setting. I'm excited to explore opportunities in the tech industry and contribute to innovative projects that make a meaningful impact.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="slide bg-light">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Programming Languages</h4>
+                    <h5>Python<br> Core java <br> C<h5></p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Frontend Development</h3>
+                    <h5> HTML<br> CSS <br></h5>
+                </div>
+                <div class="col-md-4">
+                    <h3>CS Concepts</h3>
+                    <h5>Computer Networks <br> Computer organisation <br> Operating systems </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="slide">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid row">
+                <div class="project col-md-4">
+                    <h3>Movie Ticket Booking System</h3>
+                    <p>The Movie Ticket Booking System is a digital system designed to book tickets online in a platform which is
+                        common to both customers and theater owners. It provides us the facility to view the booked tickets and how
+                        many are booked and also it has a facility to cancel the tickets by the user also.</p>
+                </div>
+                <div class="project col-md-4">
+                    <h3>Alarm Setter</h3>
+                    <p>By importing the time module in python just made a simple timer kind of alarm setter which rings a selected
+                        alarm tone after the time is completed.
+                        </p>
+                </div>
+                <div class="project col-md-4">
+                    <h3>Weather Project</h3>
+                    <p>The Weather application made using Django helps us to find out the weather in a particular Place. In this we have used the concept of APIs to get the data from a particular location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="slide bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea id="message" name="message" rows="4" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Jana Lasya Vani. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
